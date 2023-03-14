@@ -1,0 +1,317 @@
+// RECIPE PAGES (hindi po pwed palitan...dapat pare-pareho tayo)
+
+// h1 to h6
+// p
+// * universal selector
+// body
+// recipe title
+// button
+// image
+// iframe
+// margin
+// padding
+
+// css links
+// bootstrap
+// javascript
+// sass
+
+
+
+
+/* UNIVERSAL SELECTOR * Wag po tau magedit sa main.css*
+/**************SIR ALEX CSS FILES*******************/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+}
+
+.frontpage h2 {
+    // border-bottom: 1px double goldenrod;
+    border-bottom: 3mm ridge goldenrod;
+
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 4.5rem;
+    color: white;
+}
+
+.carousel {
+    margin-top: 100px;
+    margin-bottom: 2px;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 10px;
+    justify-content: center;
+
+    h2 {
+        margin: 100px auto 50px;
+        text-align: center;
+    }
+}
+
+.frontparagraph {
+    p{
+        color: black;
+    }
+}
+
+
+
+// RECIPE COLOR, PADDING AND MARGINS, VIDEO AND MAP RESPONSIVENESS
+
+  .map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+  .recipe-container  iframe {
+
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 50px auto;
+  }
+  
+  .recipe-container {
+    height: 100%;
+    width: 100%;
+    margin: 50px auto;
+    padding: 5px;
+    border: 1px solid goldenrod;
+   .row {
+    padding: 5px;
+    margin: 20px auto;
+   }
+    .col, .col-8, .col-4, .col-7, .col-5{
+      padding: 10px 20px;
+    }
+    h2{
+        border-bottom: 1px double goldenrod;
+      }
+
+    h2,h3,h4,h5 {
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+}
+
+// LIST STYLE SIZE, IMAGES
+
+.recipe-row {
+    img{
+        border-radius: 50px;
+        height: 600px;
+        width: 400px;
+        margin: 20px auto;
+        
+        box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+        -webkit-box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+        font-size: 15px;
+    }
+    li {
+        font-size: 22px;
+    }
+}
+
+  
+  .ingredients-container {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 20px;
+  }
+
+  /* FRONT PAGE TITLE ANIMATION */
+  
+  @keyframes textclip {
+   to {
+     background-position: 200% center;
+   }
+  }
+
+// from chicken.css file
+// FONT COLOR, FONT SIZE, FONT STYLE
+
+
+h2, h3, h4, h5{
+    color: black;
+}
+
+.title h2 {
+    text-align: center;
+    justify-content: center;
+    
+}
+
+// 1ST RECIPE 
+
+
+
+
+   
+div ul iframe {
+
+border-radius: 50px;
+box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
+-webkit-box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
+-moz-box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
+}
+/* carousel */
+ 
+.carousel h5 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+
+
+/* Front Page Picture Boxes */
+
+/*boxes position  boxes position  boxes position*/
+
+.hover-box1, .hover-box2, .hover-box3, .hover-box4, .hover-box5, .hover-box6, .image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 120px;
+  
+    transition: all ease 0.2s;
+    box-shadow: -16px 26px 45px -16px #02010171;
+    -webkit-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -moz-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+}
+
+/*box 1  box 1  box 1*/
+
+.hover-box1 {
+    background-image: url(https://www.jessicagavin.com/wp-content/uploads/2020/06/cuts-of-beef-12.jpg);
+}
+
+.hover-box1 .content,.hover-box2 .content,.hover-box3 .content,.hover-box4 .content,.hover-box5 .content,.hover-box6 .content, .image .content {
+
+    min-height: 300px;
+    padding: 40px;
+    color:black;
+}
+
+.hover-box1 .overlay, .hover-box2 .overlay, .hover-box3 .overlay,.hover-box4 .overlay, .hover-box5 .overlay, .hover-box6 .overlay, .image .overlay{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.2) 0%, rgba(219,209,209,0.6) 0%, rgba(233,173,173,0.1) 100%);
+    border-radius: 120px;
+
+}
+.hover-box1:hover, .hover-box2:hover, .hover-box3:hover, .hover-box4:hover, .hover-box5:hover, .hover-box6:hover, .image:hover{
+
+        transform: translateY(-20px);
+}
+/* box 2  box 2  box 2*/
+
+.hover-box2 { 
+    background-image: url(https://poultry.mystagingwebsite.com/wp-content/uploads/2019/02/shutterstock_531404539-1024x684.jpg);
+}
+/*box 3  box 3  box 3*/
+
+.hover-box3 {
+    background-image: url(https://img.freepik.com/free-photo/healthy-vegetables-wooden-table_1150-38014.jpg);
+}
+
+/*box 4  box 4  box 4*/
+
+.hover-box4 { 
+    background-image: url(https://www.knorr.com/content/dam/unilever/knorr_world/philippines/photography_and_pictures/an_assortment_of_different_cuts_of_pork_with_a_bottle_of_olive_oil_and_herbs_as_decorations-79600683-jpg.jpg);
+}
+
+/*box 5  box 5  box 5*/
+
+.hover-box5 {
+    background-image: url(https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/vleff2sg7clk9kizo6qr.jpg);
+}
+
+/*box 6  box 6  box 6*/
+
+.hover-box6 {
+    background-image: url(https://media.karousell.com/media/photos/products/2020/5/25/home_made_filipino_desserts_1590397580_57183258_progressive.jpg
+
+    ); 
+}
+
+.title h2 {
+
+    text-align: center;
+    justify-content: center;
+    border-bottom:  2mm ridge rgba(211, 220, 50, .6);
+}
+
+
+   
+
+
+
+
+
+
+
+
+   
+
+
+// .container  div img {
+
+//     border-radius: 50px;
+//     height: 500px;
+//     width: 500px;
+    
+
+//     box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+//     -webkit-box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+//     -moz-box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+    
+
+// }
+
+
+
+
+
+   
+div ul {
+
+    color: #fff;
+    margin-top: 20px;
+    list-style: none;
+}
+
+iframe {
+        border-radius: 50px;
+        
+        box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
+-webkit-box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
+-moz-box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
+
+}
+
+/* carousel */
+
+.carousel h5 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
